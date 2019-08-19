@@ -20,7 +20,7 @@ class MongoDatabase(BaseDatabase):
         return result
 
 
-class DummyDatabase(BaseDatabase):
+class MockDatabase(BaseDatabase):
     def execute(self, database_name, table_name):
         return [{
             'id': '20170101',
