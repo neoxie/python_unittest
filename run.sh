@@ -27,3 +27,7 @@ echo "======================="
 
 # coverage
 coverage run -m unittest -v
+
+# coverage report
+coverage report
+coverage html
