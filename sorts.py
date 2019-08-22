@@ -1,3 +1,6 @@
+"""
+use different algorithm to sort array
+"""
 def normal_sort(arr):
     """
     normal sort
